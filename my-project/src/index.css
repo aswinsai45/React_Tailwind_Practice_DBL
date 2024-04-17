@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@layer base{
+  body {
+    @apply font-[Oswald]
+  }
+  li {
+    @apply p-4
+  }
+
+  h1{
+    @apply text-3xl md:text-4xl font-bold
+  }
+
+  h2{
+    @apply text-3xl font-bold
+  }
+
+  h3{
+    @apply text-xl font-bold
+  }
+}
