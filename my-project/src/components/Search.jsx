@@ -47,7 +47,7 @@ const Search = () => {
           <p className='bg-gray-800 text-white'>BOOK NOW AND SAVE</p>
         </div>
         <form className='w-full'>
-          <div className='flex flex-col my-2'>
+          <div className='border flex flex-col my-2 '>
             <label>DESTINATION</label>
             <select className='border rounded-md p-2'>
               <option>BlueBeach</option>
