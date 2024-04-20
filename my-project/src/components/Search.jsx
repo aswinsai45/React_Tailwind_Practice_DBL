@@ -40,7 +40,7 @@ const Search = () => {
 
       {/*rightside*/}
 
-      <div>
+      <div className='border rounded bg-amber-200/45 p-3 shadow-[3px] hover:scale-105 transition-transform'>
         <div className='border text-center'>
           <p className='pt-4'>GET AN ADDITIONAL 10% OFF</p>
           <p className='py-2'>12 HOURS LEFT</p>
@@ -64,7 +64,7 @@ const Search = () => {
             <label>CheckOut</label>
             <input className='border rounded-md p-2' type="date" />
           </div>
-            <button className='w-full'>Check Availability ;)</button>
+            <button className='w-full bg-emerald-400'>Check Availability ;)</button>
         </form>
       </div>
 

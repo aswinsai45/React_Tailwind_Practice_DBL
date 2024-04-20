@@ -18,12 +18,12 @@ const Navbar_New = () => {
         <div>
           <h1 onClick={handleNav} className={logo ? 'hidden' : 'block'} >BEACHES.</h1>
         </div>
-        <ul className='hidden md:flex'>
-          <li>Home</li>
-          <li>Destinations</li>
-          <li>Travel</li>
-          <li>View</li>
-          <li>Book</li>
+          <ul className='hidden md:flex border rounded'>
+          <li className='hover:text-blue-300 hover:text-xl'>Home</li>
+          <li className='hover:text-blue-300 hover:text-xl'>Destinations</li>
+          <li className='hover:text-blue-300 hover:text-xl'>Travel</li>
+          <li className='hover:text-blue-300 hover:text-xl'>View</li>
+          <li className='hover:text-blue-300 hover:text-xl'>Book</li>
         </ul>
         <div className='hidden md:flex'>
         <BiSearch className='mr-4' size = {20}/>

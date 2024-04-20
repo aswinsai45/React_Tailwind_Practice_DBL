@@ -21,6 +21,10 @@
     @apply p-4
   }
 
+  form {
+    @apply p-3 shadow-md shadow-xl
+  }
+
   h1{
     @apply text-3xl md:text-3xl font-bold
   }
@@ -34,7 +38,7 @@
   }
 
   button {
-    @apply p-3 border bg-gradient-to-r from-[var(--primary-dark)] to-[var(--primary-light)] text-white rounded-md
+    @apply p-3 border bg-emerald-600/70 text-white rounded-md
   }
 
   .icon {

@@ -24,6 +24,8 @@ const Footer = () => {
                     <li>Newsroom</li>
                     <li>Advertising</li>
                 </ul>
+            <p className='pt-3 mt-4 text-left'>Made by Sai Aswin</p>
+        
 
                 <ul className='text-right lg:flex'>
                     <li>Home</li>
